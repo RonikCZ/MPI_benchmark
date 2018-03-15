@@ -1,6 +1,6 @@
-import wiringpi2
+import wiringpi
 
-io = wiringpi2.GPIO(wiringpi2.GPIO.WPI_MODE_PINS)
+io = wiringpi.GPIO(wiringpi.GPIO.WPI_MODE_PINS)
 
 io.pinMode(23,io.OUTPUT)
 
